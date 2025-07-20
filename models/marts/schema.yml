@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: fact_progress_card
+    description: This table contains measurable data so that it helps to track student journey in geeta community
+    columns: 
+      - name: student_id
+        description: This is a primary key(unique identifier for student) that helps to build relationship with fact_progress_card table
+        tests:
+          - relationships:
+              to: ref('dim_students')
+              field: student_id
+
+
+  - name: dim_students
+    description: This table contains dimensional data of student like their name, contact_no, city etc.
+    

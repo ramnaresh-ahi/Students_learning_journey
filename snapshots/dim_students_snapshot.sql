@@ -17,7 +17,7 @@ SELECT
     age,
     contact_no,
     email,
-    '@' || SPLIT(email, '@')[OFFSET(1)] AS email_domain,
+    email_domain,
     city,
     state,
     preferred_language,
