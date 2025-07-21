@@ -75,6 +75,13 @@ Final reporting models:
 
 ---
 
+## 📚 Documentation
+
+**🔗 Project Docs:**  
+[Students Learning Journey Documentation](https://ramnaresh-ahi.github.io/Students_learning_journey/)
+
+---
+
 ## 📊 Key Metrics
 
 - 👥 Total active students
@@ -96,13 +103,6 @@ This dashboard provides interactive views of:
 - Month-over-month growth
 - Counselor-level breakdowns
 - Community contribution patterns
-
----
-
-## 📚 Documentation
-
-**🔗 Project Docs:**  
-[Students Learning Journey Documentation](https://ramnaresh-ahi.github.io/Students_learning_journey/)
 
 ---
 
