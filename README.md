@@ -110,5 +110,38 @@ This dashboard provides interactive views of:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Students_learning_journey.git
+   git clone https://github.com/ramnaresh-ahi/Students_learning_journey.git
    cd Students_learning_journey
+   ```
+2. **Set up environment:**
+   - Connect your dbt Cloud account to BigQuery
+   - Load synthetic data into your `raw` schema
+
+3. **Install dependencies:**
+   ```bash
+   dbt deps
+   ```
+4. **Run models:**
+   - dbt run
+
+5. **Run tests and generate docs:**
+   - dbt test
+   - dbt docs generate
+   - dbt docs serve
+  
+---
+
+## 👨‍💻 Author
+
+**Ramnaresh Ahirwar**  
+Analytics Engineer | Data Enthusiast  
+[GitHub](https://github.com/ramnaresh-ahi) • [LinkedIn](https://www.linkedin.com/in/ramnaresh-ahirwar-77abc/)
+
+---
+
+## 📌 License
+
+This project is for educational and portfolio purposes only.  
+All data used is synthetic and generated solely for non-commercial demonstration.
+
+
