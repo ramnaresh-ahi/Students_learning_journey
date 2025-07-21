@@ -122,12 +122,16 @@ This dashboard provides interactive views of:
    dbt deps
    ```
 4. **Run models:**
-   - dbt run
+   ```bash
+   dbt run
+   ```
 
-5. **Run tests and generate docs:**
-   - dbt test
-   - dbt docs generate
-   - dbt docs serve
+6. **Run tests and generate docs:**
+   ```bash
+   dbt test
+   dbt docs generate
+   dbt docs serve
+   ```
   
 ---
 
