@@ -1,4 +1,4 @@
--- tests/valid_email.sql
+-- tests/valid_conctact_number.sql
 
 SELECT *
 FROM {{ ref('stg_students') }}
