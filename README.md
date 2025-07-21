@@ -23,7 +23,7 @@ Contains core student information:
 - Assigned counselor
 - Enrollment and onboarding details
 
-### 2. `student_progress_card`
+### 2. `progress_card`
 Tracks each student’s activity over time:
 - Live session attendance
 - Gita exam participation
